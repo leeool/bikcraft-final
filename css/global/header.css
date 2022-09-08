@@ -1,5 +1,5 @@
 .header-fundo{
-  background-color: black;
+  background-color: var(--cor-12);
 }
 
 .header{
@@ -10,8 +10,8 @@
   margin: 0 auto;
   box-sizing: border-box;
   justify-content: space-between;
-  color: white;
-  padding: 32px;
+  color: var(--cor-0);
+  padding: 20px;
   align-items: center;
 }
 
@@ -36,7 +36,7 @@
   display: block;
   height: 2px;
   width: 0px;
-  background-color: white;
+  background-color: var(--cor-0);
   margin-top: 4px;
   transition: .3s;
   position: absolute;
@@ -56,13 +56,13 @@
     gap: 20px;
   }
   .header-menu a{
-    background-color: #111;
+    background-color: var(--cor-11);
     padding: 8px 12px;
     border-radius: 4px;
     font-size: 1.5rem;
   }
   .header-menu a:hover{
-    background-color: #2E2E2E;
+    background-color: var(--cor-10);
   }
 }
 

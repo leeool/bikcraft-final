@@ -1,6 +1,15 @@
-@import url(global.css);
-@import url(header.css);
-@import url(main.css);
+/* Global */
+@import url(./global/global.css);
+@import url(utilitarios/tipografia.css);
+@import url(utilitarios/cores.css);
+
+@import url(./global/header.css);
+
+/* Utilitários */
+@import url(utilitarios/componentes.css);
+
+/* Home */
+@import url(./home/main.css);
 
 .subtitulo{
   font-weight: 400;

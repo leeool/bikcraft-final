@@ -22,7 +22,7 @@
 }
 
 .header-menu li{
-  font-size: 1.125rem;
+  font-size: 1.6rem;
 }
 
 .header-menu a{
@@ -57,7 +57,9 @@
   }
   .header-menu a{
     background-color: #111;
-    padding: 12px 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 1.5rem;
   }
   .header-menu a:hover{
     background-color: #2E2E2E;
@@ -66,7 +68,7 @@
 
 @media (width <= 500px){
   .header-menu a{
-    font-size: .875rem;
+    font-size: 1.3rem;
     padding: 8px 12px;
   }
   .header-menu{

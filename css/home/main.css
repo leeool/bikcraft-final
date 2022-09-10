@@ -57,11 +57,7 @@
   .introducao-conteudo h1{
     font-size: 3.2rem;
     margin-bottom: 16px;
-    color: var(--cor-12);
-  }
-  .introducao a{
-    padding: 12px 20px;
-    font-size: 1.6rem;
+    color: var(--cor-0);
   }
 
   .introducao-img img{

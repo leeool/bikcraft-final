@@ -6,12 +6,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
   justify-content: space-between;
   color: var(--cor-0);
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   align-items: center;
 }
 

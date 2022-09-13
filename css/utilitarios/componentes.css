@@ -22,6 +22,31 @@
   background-image: linear-gradient(#ffb60d, #e59317);
 }
 
+.link{
+  display: inline-block;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.link::after{
+  display: block;
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  background-color: var(--cor-p1);
+  transition: .1s;
+}
+
+.link:hover::after{
+  width: 100%;
+  color: white;
+}
+
 .mb-2{
   display: inline-block;
   margin-bottom: 30px;

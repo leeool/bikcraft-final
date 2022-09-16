@@ -43,10 +43,13 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .parceiros-itens li{
+    padding: 40px;
+  }
   .parceiros-itens li:nth-child(n){
     border: none;
   }
-  
+
   .parceiros-itens li:nth-child(n + 3){
     border-top: 2px var(--cor-2) solid;
   }

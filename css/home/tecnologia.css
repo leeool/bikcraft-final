@@ -65,6 +65,10 @@
     flex-direction: column;
   }
   .tecnologia-conteudo h2{
-    font-size: 56px;
+    font-size: 5rem;
   }
+  .tecnologia-conteudo p{
+    font-size: 2rem;
+  }
+
 }

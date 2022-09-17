@@ -43,6 +43,9 @@
 }
 
 @media(width <= 800px){
+  .tecnologia-conteudo > span{
+    font-size: 2rem;
+  }  
   .tecnologia{
     grid-template-columns: 1fr;
   }
@@ -65,10 +68,10 @@
     flex-direction: column;
   }
   .tecnologia-conteudo h2{
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
   .tecnologia-conteudo p{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
 }

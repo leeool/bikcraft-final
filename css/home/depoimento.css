@@ -7,60 +7,86 @@
 
 .depoimento > img{
   height: 100%;
+  width: 100%;
   object-fit: cover;
+  border-radius: 0;
 }
 
-.depoimento-texto{
-  padding-left: 80px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.depoimento-conteudo{
+  padding: 40px 40px 80px 80px;
   display: block;
   align-self: end;
 }
 
-.depoimento-texto blockquote{
+.depoimento-conteudo blockquote{
   display: block;
   font-family: 'Merriweather';
   font: 900 3.6rem/1.33 'Merriweather', sans-serif;
   color: var(--cor-p5);
-  padding-bottom: 32px;
-  padding-right: 120px;
+  padding-bottom: 20px;
   position: relative;
+  max-width: 32ch;
 }
 
-.depoimento-texto blockquote::before{
+.depoimento-conteudo blockquote::before{
   position: absolute;
   content: open-quote;
   color: var(--cor-p2);
   font-size: 7rem;
-  left: -40px;
-  top: -25px;
+  left: -35px;
+  top: -22px;
 }
 
-.depoimento-texto blockquote::after{
+.depoimento-conteudo blockquote::after{
   position: absolute;
   content: close-quote;
   color: var(--cor-p2);
   font-size: 7rem;
-  bottom: -30px;
+  bottom: -37px;
 }
 
-.depoimento-texto > span{
+.depoimento-conteudo > span{
   display: block;
   font: 600 2.4rem/1.33 'Poppins', sans-serif;
   color: var(--cor-p4);
-  padding-bottom: 30px;
 }
 
-@media (width <= 1200px){  
-  body{
-    background-color: blue;
+@media (width <= 1100px){  
+  .depoimento-conteudo blockquote {
+    font-size: 3rem;
   }
-  .depoimento-texto blockquote {
-    font-size: 1rem;
+  .depoimento-conteudo{
+    padding: 30px 30px 40px 40px;
   }
+
+  .depoimento-conteudo blockquote::before{
+    font-size: 5.5rem;
+  }
+
+  .depoimento-conteudo blockquote::after{
+    font-size: 5.5rem;
+    bottom: -25px;
+  }
+
+  .depoimento-conteudo > span{
+    font-size: 2rem;
+  }
+}
+
+@media(width <= 800px){
   .depoimento{
-    background-color: blue;
     grid-template-columns: 1fr;
+  }
+  .depoimento-conteudo{
+    padding: 40px 30px;
+  }
+
+  .depoimento-conteudo{
+    text-align: center;
+    margin: auto;
+  }
+
+  .depoimento > img{
+    max-height: 300px;
   }
 }

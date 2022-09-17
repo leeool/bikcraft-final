@@ -4,6 +4,7 @@
 @import url(utilitarios/cores.css);
 
 @import url(./global/header.css);
+@import url(global/footer.css);
 
 /* Utilitários */
 @import url(utilitarios/componentes.css);

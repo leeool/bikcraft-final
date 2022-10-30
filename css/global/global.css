@@ -1,27 +1,36 @@
-:root{
+:root {
   font-size: 10px;
 }
 
-body{
+body {
   color: #111;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   list-style: none;
 }
 
-a{
+a {
   color: inherit;
 }
-img{
+img {
   display: block;
   max-width: 100%;
 }
 
-img[src$=".jpg"]{
+img[src$=".jpg"] {
   border-radius: 4px;
+}
+
+button {
+  border: 0;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
 }

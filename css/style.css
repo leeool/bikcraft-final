@@ -8,6 +8,7 @@
 
 /* Utilitários */
 @import url(utilitarios/componentes.css);
+@import url(utilitarios/formulario.css);
 
 /* Home */
 @import url(./home/main.css);
@@ -18,3 +19,7 @@
 
 /* Bicicletas */
 @import url(bicicletas/bicicletas-lista.css);
+
+/* contato */
+@import url(contato/contato.css);
+@import url(contato/lojas.css);
